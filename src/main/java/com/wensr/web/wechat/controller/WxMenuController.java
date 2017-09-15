@@ -1,4 +1,4 @@
-package com.github.binarywang.demo.spring.controller;
+package com.wensr.web.wechat.controller;
 
 import me.chanjar.weixin.common.api.WxConsts;
 import me.chanjar.weixin.common.bean.menu.WxMenu;

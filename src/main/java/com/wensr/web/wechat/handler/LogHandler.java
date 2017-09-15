@@ -1,4 +1,4 @@
-package com.github.binarywang.demo.spring.handler;
+package com.wensr.web.wechat.handler;
 
 import java.util.Map;
 

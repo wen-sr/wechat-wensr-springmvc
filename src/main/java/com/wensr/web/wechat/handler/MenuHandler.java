@@ -1,15 +1,15 @@
-package com.github.binarywang.demo.spring.handler;
+package com.wensr.web.wechat.handler;
 
 import java.util.Map;
 
+import com.wensr.web.wechat.builder.AbstractBuilder;
+import com.wensr.web.wechat.builder.ImageBuilder;
+import com.wensr.web.wechat.dto.WxMenuKey;
+import com.wensr.web.wechat.service.WeixinService;
 import org.springframework.stereotype.Component;
 
 import com.alibaba.fastjson.JSON;
-import com.github.binarywang.demo.spring.builder.AbstractBuilder;
-import com.github.binarywang.demo.spring.builder.ImageBuilder;
-import com.github.binarywang.demo.spring.builder.TextBuilder;
-import com.github.binarywang.demo.spring.dto.WxMenuKey;
-import com.github.binarywang.demo.spring.service.WeixinService;
+import com.wensr.web.wechat.builder.TextBuilder;
 
 import me.chanjar.weixin.common.api.WxConsts;
 import me.chanjar.weixin.common.session.WxSessionManager;

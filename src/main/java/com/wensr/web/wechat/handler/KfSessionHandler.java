@@ -1,4 +1,4 @@
-package com.github.binarywang.demo.spring.handler;
+package com.wensr.web.wechat.handler;
 
 import java.util.Map;
 
@@ -15,13 +15,14 @@ import me.chanjar.weixin.mp.bean.message.WxMpXmlOutMessage;
  *
  */
 @Component
-public class NullHandler extends AbstractHandler {
+public class KfSessionHandler extends AbstractHandler{
 
-    @Override
-    public WxMpXmlOutMessage handle(WxMpXmlMessage wxMessage,
-            Map<String, Object> context, WxMpService wxMpService,
+  @Override
+  public WxMpXmlOutMessage handle(WxMpXmlMessage wxMessage,
+      Map<String, Object> context, WxMpService wxMpService,
             WxSessionManager sessionManager) {
-        return null;
-    }
+    //TODO 对会话做处理
+    return null;
+  }
 
 }

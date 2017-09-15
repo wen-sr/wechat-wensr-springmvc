@@ -1,4 +1,4 @@
-package com.github.binarywang.demo.spring.dto;
+package com.wensr.web.wechat.dto;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 

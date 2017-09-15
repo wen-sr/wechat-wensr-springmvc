@@ -1,4 +1,4 @@
-package com.github.binarywang.demo.spring.aop;
+package com.wensr.web.wechat.aop;
 
 import org.apache.commons.lang3.ArrayUtils;
 import org.aspectj.lang.JoinPoint;

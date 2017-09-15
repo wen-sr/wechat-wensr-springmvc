@@ -1,11 +1,11 @@
-package com.github.binarywang.demo.spring.handler;
+package com.wensr.web.wechat.handler;
 
 import java.util.Map;
 
+import com.wensr.web.wechat.service.WeixinService;
 import org.springframework.stereotype.Component;
 
-import com.github.binarywang.demo.spring.builder.TextBuilder;
-import com.github.binarywang.demo.spring.service.WeixinService;
+import com.wensr.web.wechat.builder.TextBuilder;
 
 import me.chanjar.weixin.common.exception.WxErrorException;
 import me.chanjar.weixin.common.session.WxSessionManager;

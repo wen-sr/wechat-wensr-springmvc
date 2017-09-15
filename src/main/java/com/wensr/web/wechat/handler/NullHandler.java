@@ -1,4 +1,4 @@
-package com.github.binarywang.demo.spring.handler;
+package com.wensr.web.wechat.handler;
 
 import java.util.Map;
 
@@ -15,15 +15,12 @@ import me.chanjar.weixin.mp.bean.message.WxMpXmlOutMessage;
  *
  */
 @Component
-public class UnsubscribeHandler extends AbstractHandler {
+public class NullHandler extends AbstractHandler {
 
     @Override
     public WxMpXmlOutMessage handle(WxMpXmlMessage wxMessage,
             Map<String, Object> context, WxMpService wxMpService,
             WxSessionManager sessionManager) {
-        String openId = wxMessage.getFromUser();
-        this.logger.info("取消关注用户 OPENID: " + openId);
-        // TODO 可以更新本地数据库为取消关注状态
         return null;
     }
 

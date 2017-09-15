@@ -1,4 +1,4 @@
-package com.github.binarywang.demo.spring.service;
+package com.wensr.web.wechat.service;
 
 import javax.annotation.PostConstruct;
 
@@ -8,17 +8,17 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.github.binarywang.demo.spring.config.WxMpConfig;
-import com.github.binarywang.demo.spring.handler.AbstractHandler;
-import com.github.binarywang.demo.spring.handler.KfSessionHandler;
-import com.github.binarywang.demo.spring.handler.LocationHandler;
-import com.github.binarywang.demo.spring.handler.LogHandler;
-import com.github.binarywang.demo.spring.handler.MenuHandler;
-import com.github.binarywang.demo.spring.handler.MsgHandler;
-import com.github.binarywang.demo.spring.handler.NullHandler;
-import com.github.binarywang.demo.spring.handler.StoreCheckNotifyHandler;
-import com.github.binarywang.demo.spring.handler.SubscribeHandler;
-import com.github.binarywang.demo.spring.handler.UnsubscribeHandler;
+import com.wensr.web.wechat.config.WxMpConfig;
+import com.wensr.web.wechat.handler.AbstractHandler;
+import com.wensr.web.wechat.handler.KfSessionHandler;
+import com.wensr.web.wechat.handler.LocationHandler;
+import com.wensr.web.wechat.handler.LogHandler;
+import com.wensr.web.wechat.handler.MenuHandler;
+import com.wensr.web.wechat.handler.MsgHandler;
+import com.wensr.web.wechat.handler.NullHandler;
+import com.wensr.web.wechat.handler.StoreCheckNotifyHandler;
+import com.wensr.web.wechat.handler.SubscribeHandler;
+import com.wensr.web.wechat.handler.UnsubscribeHandler;
 
 import me.chanjar.weixin.common.api.WxConsts;
 import me.chanjar.weixin.mp.api.WxMpInMemoryConfigStorage;

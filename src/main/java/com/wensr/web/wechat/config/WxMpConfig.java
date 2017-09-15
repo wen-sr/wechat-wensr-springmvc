@@ -1,4 +1,4 @@
-package com.github.binarywang.demo.spring.config;
+package com.wensr.web.wechat.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
